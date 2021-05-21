@@ -1,0 +1,160 @@
+body {
+    background: url("images/grass-1.jpg") fixed;
+    background-size: 1920px;
+    font-family: "Trebuchet MS";
+}
+
+#bloc_page {
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 1000px;
+    padding: 40px 40px 40px 40px;
+    color: rgb(75, 75, 75);
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*-------Navigateur space-between--------*/
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav li {
+    background-color: white;
+    border-radius: 7px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    background-color: rgb(255, 255, 255);
+    padding: 4px 4px 4px 4px;
+
+}
+
+li a:hover {
+    background-color: rgb(0, 180, 0);
+    color: white;
+    border-radius: 7px;
+    padding: 4px 4px 4px 4px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    background-color: rgb(255, 255, 255);
+    padding: 4px 4px 4px 4px;
+
+}
+
+footer a:hover {
+    background-color: rgb(0, 180, 0);
+    color: white;
+    border-radius: 7px;
+    padding: 4px 4px 4px 4px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+b {
+    color: blue;
+    text-decoration: underline;
+}
+
+b:hover {
+    color: green;
+}
+
+nav {
+    border-top: 3px rgba(50, 50, 50, 0.5) double;
+    border-bottom: 3px rgba(50, 50, 50, 0.5) double;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*border: 2px black solid;*/
+}
+
+/* -------------PARTIE PRINCIPALE-------------*/
+#presentation {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 300%;
+    color: rgb(75, 75, 75);
+    /*background-color: rgba(7,100,0,0.7);*/
+}
+
+#contenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 50px 50px;
+}
+
+.description {
+    width: 500px;
+    text-align: center;
+}
+
+.explications {
+    text-align: center;
+}
+
+.justifications {
+    text-align: center;
+    font-style: italic;
+}
+
+.covid19 {
+    text-align: center;
+    font-weight: bold;
+    color: #FF0000;
+    font-size: 150%;
+}
+
+.faqtitre {
+    font-weight: bold;
+}
+
+.faqtext {
+    color: grey;
+    font-style: italic;
+}
+
+.details {
+    text-align: left;
+    text-align: justify;
+}
+
+.flottant {
+    float: left;
+}
+
+.entreprise {
+    font-size: 200%;
+}
+
+.relais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
