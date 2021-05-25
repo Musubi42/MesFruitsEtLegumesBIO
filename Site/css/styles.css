@@ -1,5 +1,5 @@
 body {
-    background: url("images/grass-1.jpg") fixed;
+    background: url("../images/background.jpg") fixed;
     background-size: 1920px;
     font-family: "Trebuchet MS";
 }
@@ -157,4 +157,9 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.bio {
+    height: 400px;
+    width: auto;
 }
