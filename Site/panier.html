@@ -2,43 +2,30 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8"/>
-    <link rel="shortcut icon" href="images/panier.ico">
-    <link rel="stylesheet" type="text/css" href="../Styles/styles.css" />
-    <title>Mon Potager Bio</title>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-17432170-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
-                '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>C'mon panier bio</title>
 </head>
 
 <body>
     <div id="bloc_page">
         <header>
-            <img src="images/banniere.png">
+            <!-- On pourra ajouter dans le futur une bannière à nous -->
+            <!-- <img src="images/banniere.png"> -->
             <nav>
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="paniers.html">Paniers</a></li>
-                    <li><a href="livraison.html">Livraison Point Relais</a></li>
-                    <li><a href="contact.html">Contact Adhésion</a></li>
-                    <li><a href="faq.html">F.a.Q</a></li>
+                    <li><a href="index">Accueil</a></li>
+                    <li><a href="panier.html">Paniers</a></li>
+                    <!-- Du coup pas de livraison en point relais ? -->
+                    <li><a href="contact-adhesion.html">Contact Adhésion</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
             </nav>
         </header>
+
         <div id="presentation">Les paniers</div>
+        <!-- Faire très rapidement un truc propre à la woofbox ou potagercity, en mode l'offre avec le plus de marge, la mettre en avant avec plein de couleurs comme on aime -->
         <section>
             <p class="explications">Nos paniers sont composés de 7 produits choisis par nos soins. <br />5 variètés de
                 légumes et 2 variètés de fruits avec des poids différents suivant celui demandé : </p>
@@ -60,10 +47,13 @@
         </section>
 
         <footer>
-            <div>Copyright 2020 (tous droits réservés)<br />
-                Conception du site par Quentin CARON et Sébastion FAVRE</div>
+            <a href="protection-donnees-personnelles.html">Protection des données personnelles</a>
+            <a href="cookies.html">Cookie</a>
             <a href="CGV.html">Conditions Générales de Vente</a>
-            <a href="mentions.html">Mentions Légales</a>
+            <a href="mentions-legales.html">Mentions Légales</a>
+            <!-- Mettre cette partie en-dessous et à droite la protection des données -->
+            <div>Copyright 2021 (tous droits réservés)<br />
+                Conception du site par Conrado GONZALEZ et Raphaël THIBAUT</div>
         </footer>
 
     </div>
